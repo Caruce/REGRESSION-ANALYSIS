@@ -1,0 +1,6 @@
+darts2 <- read.csv("D:/UNDERGRADUATE_TJPU & ELS & BGSU/Senior-fall/STAT/week 2/Homework 01/darts2.txt")
+head(darts2)
+
+pros <- (darts2$PROS)
+darts<- (darts2$DARTS)
+"there have noe time now."

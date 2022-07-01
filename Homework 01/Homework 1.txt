@@ -1,0 +1,9 @@
+You can work with a group up to three members. If you work with a group, do not forget to enroll in a group under "People"- "Homework Groups." Also, make sure that all members name is in the submission. If you want to submit the homework by yourself, you do not need to enroll in a group.
+
+Solve the following problems from the book.
+
+Problem #44 (page 49)
+Problem #45 (page 50)
+Problem #46 (page 50)
+
+Note: You need to include computer outputs (R (Rstudio) for this exercise) when you answer these questions.

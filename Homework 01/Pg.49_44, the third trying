@@ -1,0 +1,38 @@
+sales2 <- read.csv("D:/UNDERGRADUATE_TJPU & ELS & BGSU/Senior-fall/STAT/week 2/Homework 01/sales2.txt")
+sales2_A1 <- c(12,15,28,14,18,10,15,20,5,4,12,10,24,16,13,14,18,22,6,12)
+sales2_A2 <- c(8,10,24,14,10,20,20,15,0,7,10,16,17,20,12,4,12,18,3,16)
+average_sales2_A1 <- mean(sales2_A1)
+average_sales2_A2 <- mean(sales2_A2)
+Difference_bewteen_A1_A2 <- average_sales2_A1 - average_sales2_A2
+"So, the difference in average sales produced by the two approaches is 1.6"
+
+
+"(Because I think this is wrong)
+sd_A1 <- sd(sales2_A1)
+sd_average_A1 <- sd(sales2_A1)/sqrt(20)
+t_value_A1 <- qt(1-0.1/2,df=20-1)
+pt(t_value_A1,df=20-1,lower.tail = FALSE)
+P value of A1 = 0.05 < 0.1
+
+sd_A2 <- sd(sales2_A2)
+sd_average_A2 <- sd(sales2_A2)/sqrt(20)
+t_value_A2 <- qt(1-0.1/2,df=20-1)
+pt(t_value_A2,df=20-1,lower.tail = FALSE)"
+
+
+"Because there have 40 numbers, it is larger than 30"
+average_sales2 <- mean(12,15,28,14,18,10,15,20,5,4,12,10,24,16,13,14,18,22,6,12,8,10,24,14,10,20,20,15,0,7,10,16,17,20,12,4,12,18,3,16)
+sd_A1 <- sd(sales2_A1)
+sd_average_A1 <- sd(sales2_A1)/sqrt(20)
+t_critical_A1 <- qt(1-0.1/2,df=20-1)
+t_value_A1 <- (average_sales2_A1 - average_sales2)/(sd_A1/sqrt(20))
+pt(t_value_A1,df=20-1,lower.tail = FALSE)
+
+sd_A2 <- sd(sales2_A2)
+sd_average_A2 <- sd(sales2_A2)/sqrt(20)
+t_critical_A2 <- qt(1-0.1/2,df=20-1)
+t_value_A2 <- (average_sales2_A2 - average_sales2)/(sd_A2/sqrt(20))
+pt(t_value_A2,df=20-1,lower.tail = FALSE)
+"Due to the pt of A2 is greater than 10%, I would select the A2." 
+
+

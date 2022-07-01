@@ -1,0 +1,17 @@
+harris2 <- read.csv("D:/UNDERGRADUATE_TJPU & ELS & BGSU/Senior-fall/STAT/week 2/Homework 01/harris2.txt",header = T)
+head(harris2)
+
+
+#salary_male <- (harris2$SALARY.MALE) does not work, because of N/A#
+
+salary_male <- c(4620,5040,5100,5100,5220,5400,5400,5400,5400,5400,5700,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6000,6300,6600,6600,6600,6840,6900,6900,8100)
+salary_female <- (harris2$SALARY.FEMALE)
+mean_male <- mean(salary_male)
+mean_female <- mean(salary_female)
+
+sd_male <- sd(salary_male)
+sd_female <- sd(salary_female)
+
+t_critical <- qt(1-0.05/2,df=93-2)
+
+t_value <- (mean_male - mean_female)/(sd_male/sqrt(61) + sd_female/sqrt(32))

@@ -1,0 +1,14 @@
+sales2 <- read.csv("D:/UNDERGRADUATE_TJPU & ELS & BGSU/Senior-fall/STAT/week 2/Homework 01/sales2.txt")
+
+sales2_A1 <- (sales2$APPROACH.1)
+sales2_A2 <- (sales2$APPROACH.2)
+average_sales2_A1 <- mean(sales2_A1)
+average_sales2_A2 <- mean(sales2_A2)
+
+sd_A1 <- sd(sales2_A1)
+sd_A2 <- sd(sales2_A2)
+
+t_critical <- qt(1-0.1/2,df=40-2)
+
+
+t_value <- (average_sales2_A1 -average_sales2_A2)/sqrt(sd_A1*sd_A1/20 + sd_A2*sd_A2/20)

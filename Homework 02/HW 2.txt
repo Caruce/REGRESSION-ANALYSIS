@@ -1,0 +1,13 @@
+You can work with a group up to three members. If you work with a group, do not forget to enroll in a group under "People"- "Homework Groups." Also, make sure that all members name is in the submission. If you want to submit the homework by yourself, you do not need to enroll in a group.
+
+For each of the following three exercises,
+
+A) Estimate the simple linear regression equation. (5pts each)
+B) Construct the scatterplot between the predictor variable X and the response variable Y, and draw the fitted regression equation on the scatterplot. (abline function) (13pts each)
+C) Comment on the fitted regression equation (from part (b) above).Interpret the estimated intercept and slope in the context of the problem. (15pts each)
+
+Problem #24 (page 120): Cost Estimation, ¡°Costest3.csv"
+Problem #25 (page 121): Income/Consumption, ¡°Incons3.csv¡±
+Problem #26 (page 122): Apex Corporation, ¡°Apex3.csv¡±
+
+Note: You need to include computer outputs (please use R (Rstudio) for this exercise) when you answer these questions. The answers should be typed (either a word document or a pdf document).

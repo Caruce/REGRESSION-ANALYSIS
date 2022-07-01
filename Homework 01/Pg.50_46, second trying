@@ -1,0 +1,21 @@
+darts2 <- read.csv("D:/UNDERGRADUATE_TJPU & ELS & BGSU/Senior-fall/STAT/week 2/Homework 01/darts2.txt", header = T)
+head(darts2)
+
+pros <- (darts2$PROS)
+darts<- (darts2$DARTS)
+djia <- (darts2$DJIA)
+
+mean_pros <- mean(pros)
+mean_darts <- mean(darts)
+mean_djia <- mean(djia)
+
+sd_pros <- sd(pros)
+sd_darts <- sd(darts)
+sd_djia <- sd(djia)
+
+t_critical_1 <- qt(1-0.05/2,df=212-2)
+
+t_value_1 <- (mean_pros - mean_darts)/(sd_pros/sqrt(106)+sd_darts/sqrt(106))
+
+
+t_value_2 <- (mean_pros - mean_djia)/(sd_pros/sqrt(106)+sd_djia/sqrt(106))
